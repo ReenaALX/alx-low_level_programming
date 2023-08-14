@@ -1,9 +1,11 @@
 #include "dog.h"
 #include <stdio.h>
+
 /**
  * print_dog - prints dog stats
  * @d: dog to print
  */
+
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
